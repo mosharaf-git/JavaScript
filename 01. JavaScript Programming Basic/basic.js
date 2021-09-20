@@ -105,6 +105,13 @@ console.log(x >= u)         // Greater Than or Equal to Operator
 console.log(x <= v)         // Less Than or Equal to Operator
 console.log(x != w)         // Not Equal Operator
 
+var ax = 10
+var by = 30
+var cz = 44
+console.log(ax > by && ax > cz)     // Logical AND
+console.log(by < cz || by < ay)     // Logical OR          // Logical Operator
+console.log(!ax == by)              // Logical NOT
+
 
 // Math Function in JavaScript
 var intMath = 10
