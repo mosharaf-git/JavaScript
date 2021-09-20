@@ -1,15 +1,15 @@
 // If Else if Else Condition in JavaScript
-// var a = 10
-// var b = 20
-// var c = 30
+var a = 10
+var b = 20
+var c = 30
 
-// if(a > b){
-//     console.log("(a < b) This Statement is True")
-// }else if(c > a){
-//     console.log("(c > a) This Statement is also True")
-// }else{
-//     console.log("Nope! This Statement is False")
-// }
+if(a > b){
+    console.log("(a < b) This Statement is True")
+}else if(c > a){
+    console.log("(c > a) This Statement is also True")
+}else{
+    console.log("Nope! This Statement is False")
+}
 
 
 // Switch Statement
