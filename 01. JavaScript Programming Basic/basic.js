@@ -3,13 +3,16 @@ console.log('Hello JavaScript');
 
 // Variable in JavaScript
 var myName = "Mosharaf Hossain";
-var myRoll = 366866;
-var myInstitute = "Sherpur Polytechnic Institute";
+var myInstitute = "Sherpur Polytechnic Institute";        // String Type Variable
 var myDepartment = "Computer Technology";
-var isGoodStudent = true;
 
-console.log(myName+ ' ' +myRoll+ ' ' +myInstitute+ ' ' +myDepartment);
-console.log(isGoodStudent);
+var myRoll = 366866;        // Integer Type Variable
+var myPoint = 3.86;        // Float Type Variable
+
+var wasGoodStudent = true;  // Boolean Type Variable
+
+console.log(myName+ ' ' +myInstitute+ ' ' +myDepartment + ' ' +myRoll+ ' '+myPoint);
+console.log(wasGoodStudent);
 
 // Data Types in JavaScript
 // Primitive Data Type
