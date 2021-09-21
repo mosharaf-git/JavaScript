@@ -37,6 +37,17 @@ for(var i = 0; i < 3; i++){
     console.log('Outer Loop')
 }
 
+// Infinity For Loop in JavaScript
+for(; ;){
+    var rand = Math.floor(Math.random() * 10 + 1)
+    if(rand == 7){
+        console.log('You got lucky 7')
+        break
+    }else{
+        console.log('Thanks for trying '+ rand +' time')
+    }
+}
+
 
 // Break Statement in JavaScript
 for(var i = 1; i <= 100; i++){
@@ -54,6 +65,5 @@ for(var i = 1; i <= 10; i++){
         console.log(i)
     }
 }
-
 
 
