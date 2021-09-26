@@ -14,13 +14,12 @@ console.log(nConvert)
 // Escape Notation
 var value = '\tMosharaf Hossain\n'             // Tab & New Line 
 var number =  4234
-
 console.log(value)
 console.log(number)
 
 // String Comparison
 var a = 'a'
-var b = 'B'                                     // JavaScript Lexicographic System
+var b = 'B'                                    // JavaScript Lexicographic System
 console.log(a > b)
 
 // String Method
@@ -59,11 +58,5 @@ while(true){
 }
 
 console.log(length)
-
-if(length > 15){
-    console.log('Please Short Your Name')
-}else{
-    console.log('Welcome Home')
-}
 
 
