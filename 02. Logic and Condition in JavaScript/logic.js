@@ -51,7 +51,7 @@ switch (today) {
 
 // Ternary Operator
 var n = 10
-var result = n%2 == 0 ? 'Even' : 'Odd'
+var result = n%2 == 0 ? 'Even' : 'Odd'          // Shorthand of if else condition
 
 console.log(result)
 
