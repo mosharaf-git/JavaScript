@@ -1,4 +1,5 @@
-// Print Hello JavaScript
+// Print Hello World and Hello JavaScript
+console.log('Hello World');
 console.log('Hello JavaScript');
 
 // Variable in JavaScript
@@ -6,45 +7,45 @@ var myName = "Mosharaf Hossain";
 var myInstitute = "Sherpur Polytechnic Institute";        // String Type Variable
 var myDepartment = "Computer Technology";
 
-var myRoll = 366866;        // Integer Type Variable
-var myPoint = 3.86;        // Float Type Variable
+var myRoll = 366866;                                     // Integer Type Variable
+var myPoint = 3.86;                                     // Float Type Variable
 
-var wasGoodStudent = true;  // Boolean Type Variable
+var wasGoodStudent = true;                             // Boolean Type Variable
 
 console.log(myName+ ' ' +myInstitute+ ' ' +myDepartment + ' ' +myRoll+ ' '+myPoint);
 console.log(wasGoodStudent);
 
 // Data Types in JavaScript
 // Primitive Data Type
-var singleQuoteString = 'Holy Quran';
-var doubleQuoteString = 'Hajrat Muhammad (s)';      // String Data Type
+var singleQuoteString = 'I Love JS';
+var doubleQuoteString = "I Want to Marry JS";      // String Data Type
 console.log(singleQuoteString);
 console.log(doubleQuoteString);
 
 var number = 1234;
-var floatNumber = 21.43  ;     // Number Data Type
+var floatNumber = 21.43  ;                         // Number Data Type
 console.log(number);
 console.log(floatNumber);
 
 var isTrue = true;
-var isFalse = false;        // Boolean Data Type
+var isFalse = false;                               // Boolean Data Type
 console.log(isTrue);
 console.log(isFalse);
 
 var zero =  null;
-console.log(zero)  ;       // NULL and Undefined Type
+console.log(zero)  ;                               // NULL and Undefined Type
 var nothing;
 console.log(nothing);
 
 // Non Primitive or Object Data Type
 var array = [12, 34, 56, 78, 90];
-console.log(array);                      // Array Data Type
+console.log(array);                               // Array Data Type
 console.log(typeof array)
 
 var object = {
     myName: "Mosharaf Hossain",
     myRoll: 366866,
-    myInstitute: "Sherpur Polytechnic Institute",
+    myInstitute: "Sherpur Polytechnic Institute",    // Oject Data Type
     myDepartment: "Computer Technology",
     isGoodStudent: true
 }
