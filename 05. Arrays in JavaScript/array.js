@@ -3,6 +3,7 @@ var arr1 = [ 8, 3, 9, 1, 4, 12, 35]
 console.log(arr1)
 console.log(arr1.length)
 
+
 // Array Traversing
 var arr2 = [21, 23, 31, 43, 54, 65, 86]       // Traversing an Array
 for(var i = 0; i < arr2.length; i++){
@@ -13,14 +14,12 @@ var sum = 0
 for(var i =  0; i < arr2.length; i++){
     sum += arr2[i]                           // Sum of an Array
 }
-
 console.log(sum)
-
 
 
 // Array Insert, Remove, Replace
 var arr3 = [ 3, 9, 5, 12, 4, 32]
-arr3.push(34)                                    // Adding an element to the end of the array
+arr3.push(34)                                   // Adding an element to the end of the array
 console.log(arr3)
 
 var arr4 = [10, 22, 13, 39, 15, 12, 24, 32]
@@ -42,8 +41,8 @@ console.log(arr7)
 var months = ['Jan', 'March', 'April', 'June'];
 months.splice(1, 0, 'Feb');                     // Adding an element to the specific area of the array    
 months.splice(4, 0, 'May');
-
 console.log(months);
+
 
 // Search a Value
 var arr8 = [ 23, 32, 41, 48, 50, 56]
@@ -77,6 +76,7 @@ for(var i = 0; i < multiArray.length; i++){
     }
 }
 
+
 // Array Reverse in JavaScript
 arr9 = [1, 2, 3, 4];
 arr10 = [];
@@ -84,6 +84,7 @@ for (var i = arr9.length - 1; i >= 0; i--) {
     arr10.push(arr9[i]);
 }
 console.log(arr10);
+
 
 // Built-in Function
 var arr11 = [3, 5, 8, 9, 12, 13]
