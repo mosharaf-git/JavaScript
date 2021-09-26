@@ -5,7 +5,6 @@ console.log(arr1.length)
 
 // Array Traversing
 var arr2 = [21, 23, 31, 43, 54, 65, 86]       // Traversing an Array
-
 for(var i = 0; i < arr2.length; i++){
     console.log(arr2[i])
 }
@@ -14,12 +13,12 @@ var sum = 0
 for(var i =  0; i < arr2.length; i++){
     sum += arr2[i]                           // Sum of an Array
 }
+
 console.log(sum)
 
 
 
 // Array Insert, Remove, Replace
-
 var arr3 = [ 3, 9, 5, 12, 4, 32]
 arr3.push(34)                                    // Adding an element to the end of the array
 console.log(arr3)
@@ -103,7 +102,4 @@ console.log(filled)
 
 var concatenating = arr11.concat(arr12)
 console.log(concatenating)
-
-
-
 
