@@ -48,22 +48,20 @@ for(; ;){
     }
 }
 
-
 // Break Statement in JavaScript
 for(var i = 1; i <= 100; i++){
     if(i%2==0){
         console.log(i)
-        break       // It will break the statement
+        break                       // It will break the statement
     }
 }
 
 // Continue Statement in JavaScript
 for(var i = 1; i <= 10; i++){
     if(i==2 || i==4){
-        continue       // It will Continue the statement
+        continue                    // It will Continue the statement
     }else{
         console.log(i)
     }
 }
-
 
